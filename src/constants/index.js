@@ -1,76 +1,88 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import AI from "../assets/projects/AI.jpg";
+import stickynotes from "../assets/projects/stickynotes.jpg";
+import network from "../assets/projects/network.jpg";
+import pizza from "../assets/projects/pizza.jpg";
+import gene from "../assets/projects/gene.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am an enthusiastic second-year undergraduate student in the department of Biotechnology and Bioinformatics at Indian Institute of Technology, Hyderabad, with a strong passion for integrating AI, web development, and biology. Through my studies and projects, I aim to bridge the gap between computational science and biological discoveries, creating impactful solutions that address challenges in bioinformatics, and healthcare.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `With a strong foundation in machine learning, React.js, JavaScript, Flask, Python, R, and various bioinformatics tools, I am committed to integrating cutting-edge technologies to solve real-world biological problems. Additionally, I have developed strong expertise in data structures and algorithms, having solved over 450 problems on LeetCode. This experience has honed my problem-solving skills and enhanced my ability to approach complex challenges with efficiency and precision. My work spans from developing interactive web applications to implementing AI-driven algorithms for analyzing biological datasets. I am particularly passionate about bioinformatics applications, such as proteins, genomic data analysis, and disease prediction models.`;
 
+export const ABOUT_TEXT_2 = `Beyond academics and research, I am an avid football player and actively participate in various competitions, including Inter IIT 2024. Football has instilled in me the values of teamwork, discipline, and resilience—qualities that I bring into my technical and research endeavors.I thrive on collaboration and constantly seek opportunities to apply my technical expertise in innovative ways to advance research and create tools in the field of life sciences.`;
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "March 2025 - Present",
+    role: "Undergraduate Research Assistant",
+    company: "Indian Institute of Technology, Hyderabad",
+    Lab: "Systems Biology and Network Lab",
+    description: `Currently working on two separate projects under the supervision of Dr. Abhisek Subramaniam. One project involves researching various lung infections in humans, while the other focuses on analyzing the metabolic pathways of organisms. Both projects are ongoing and aim to provide valuable insights into infection mechanisms and metabolic processes.`,
+    technologies: ["Web Development", "Database Development", "Visualisations"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "September 2024 - March 2025",
+    role: "Undergraduate Research Assistant",
+    company: "Indian Institute of Technology, Hyderabad",
+    Lab: "Systems Biology and Network Lab",
+    description: `Worked in the Systems Biology and Network Lab under the supervision of Dr. Abhisek Subramaniam, conducting in-depth research on horizontal gene transfer by analyzing approximately 200 computational tools. Investigated mechanisms of gene transfer, assessed tool accuracy and functionality, and provided insightful results that contribute to a deeper understanding of horizontal gene transfer in various organisms.`,
+    technologies: ["Python", "Linux", "Perl"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Coming Soon on April 30, 2025....",
+    image: AI,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Something extraordinary is on the horizon. The project is set to deliver a seamless and intelligent experience that will leave users amazed. Stay tuned as we prepare to unveil a creation that blends functionality, scalability, and brilliance into one remarkable solution",
+    technologies: [
+      "Javascript",
+      "React",
+      "Flask",
+      "Python",
+      "Supabase",
+      "TailwindCSS",
+      "ReactQuery",
+      "Machnine Learning",
+      "Deep Learning",
+    ],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Network Analyser",
+    image: network,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A Bioinformatics tool designed for seamless metabolic network visualization and analysis. Users can upload a network file to explore it through an interactive interface, featuring functionalities like layout customization, zooming, panning, extracting sub-graphs and dynamic interactions.",
+    technologies: [
+      "Javascript",
+      "React.js",
+      "CytoscapeJS",
+      "Flask",
+      "StyledComponents",
+    ],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Gene-Interaction-Tool",
+    image: gene,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A web-based tool to query gene interactions and dependencies from biological datasets. Built using PHP, SQL, and a responsive frontend for seamless user interaction.",
+    technologies: ["HTML", "CSS", "php", "phpmyadmin", "MySQL"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "QuickNotes",
+    image: stickynotes,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Effortlessly organize your thoughts, tasks, and ideas with this intuitive notes app. It allows users to create, edit, and manage notes in real-time. Featuring a sleek interface and robust functionality. Whether you're brainstorming or planning your day, this application is your perfect companion for staying organized.",
+    technologies: ["Javascript", "React.js", "Appwrite", "TailwindCSS"],
+  },
+  {
+    title: "Pizza Express",
+    image: pizza,
+    description:
+      "Pizza Express makes ordering pizza quick and effortless. Browse the menu, place your order, and get fresh, hot pizza delivered to your doorstep. Enjoy a simple and hassle-free experience! ",
+    technologies: ["Javascript", "React.js", "Redux", "TailwindCSS"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Indian Institute of Technology, Hyderabad, Sanagareddy ",
+  email: "psharish2712@gmail.com",
 };

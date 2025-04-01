@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index";
-import profilePic from "../assets/kevinRushProfile.png";
+
 import { motion } from "motion/react";
 
 const container = (delay) => ({
@@ -13,15 +13,15 @@ const container = (delay) => ({
 
 function Hero() {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-40">
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start">
+        <div className="w-full text-center">
+          <div className="flex flex-col items-center ">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-4 lg:text-8xl"
+              className="pb-16 text-6xl font-light tracking-tight lg:mt-4 lg:text-8xl"
             >
               P S Harish
             </motion.h1>
@@ -39,14 +39,14 @@ function Hero() {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-2xl py-6 font-light tracking-tight"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2 lg:p-8">
+        {/* <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
@@ -56,7 +56,7 @@ function Hero() {
               alt="profile"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

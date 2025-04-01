@@ -30,6 +30,8 @@ function Experience() {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
+              <p className="mb-4 font-semibold">{experience.Lab}</p>
+
               <h6 className="mb-2 font-semibold">
                 {experience.role}-{" "}
                 <span className="text-sm text-purple-100">

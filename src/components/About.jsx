@@ -1,5 +1,5 @@
 import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT } from "../constants";
+import { ABOUT_TEXT, ABOUT_TEXT_2 } from "../constants";
 import { motion } from "motion/react";
 
 function About() {
@@ -18,7 +18,13 @@ function About() {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img
+              className="rounded-2xl"
+              src={aboutImg}
+              height={500}
+              width={400}
+              alt="about"
+            />
           </div>
         </motion.div>
 
@@ -29,7 +35,10 @@ function About() {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 maxw-xl py-6">{ABOUT_TEXT}</p>
+            <div>
+              <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+              <p className="my-2 max-w-l py-6">{ABOUT_TEXT_2}</p>
+            </div>
           </div>
         </motion.div>
       </div>
