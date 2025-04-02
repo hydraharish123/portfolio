@@ -37,7 +37,12 @@ function Projects() {
               transition={{ duration: 1 }}
               className="w-full max-w-2xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <h6 className="mb-2 font-semibold">
+                {project.title} -{" "}
+                <a href={project.link} className="border-b">
+                  Go to project
+                </a>
+              </h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
 
               <div className="flex flex-wrap gap-1">

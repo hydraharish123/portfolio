@@ -45,6 +45,7 @@ export const PROJECTS = [
       "Machnine Learning",
       "Deep Learning",
     ],
+    link: "#",
   },
   {
     title: "Network Analyser",
@@ -58,6 +59,7 @@ export const PROJECTS = [
       "Flask",
       "StyledComponents",
     ],
+    link: "https://github.com/hydraharish123/NetworkAnalyzer",
   },
   {
     title: "Gene-Interaction-Tool",
@@ -65,6 +67,7 @@ export const PROJECTS = [
     description:
       "A web-based tool to query gene interactions and dependencies from biological datasets. Built using PHP, SQL, and a responsive frontend for seamless user interaction.",
     technologies: ["HTML", "CSS", "php", "phpmyadmin", "MySQL"],
+    link: "https://github.com/hydraharish123/BT2053",
   },
   {
     title: "QuickNotes",
@@ -72,6 +75,7 @@ export const PROJECTS = [
     description:
       "Effortlessly organize your thoughts, tasks, and ideas with this intuitive notes app. It allows users to create, edit, and manage notes in real-time. Featuring a sleek interface and robust functionality. Whether you're brainstorming or planning your day, this application is your perfect companion for staying organized.",
     technologies: ["Javascript", "React.js", "Appwrite", "TailwindCSS"],
+    link: "https://github.com/hydraharish123/QuickNotes",
   },
   {
     title: "Pizza Express",
@@ -79,6 +83,7 @@ export const PROJECTS = [
     description:
       "Pizza Express makes ordering pizza quick and effortless. Browse the menu, place your order, and get fresh, hot pizza delivered to your doorstep. Enjoy a simple and hassle-free experience! ",
     technologies: ["Javascript", "React.js", "Redux", "TailwindCSS"],
+    link: "https://github.com/hydraharish123/pizza-express",
   },
 ];
 
