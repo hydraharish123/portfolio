@@ -7,7 +7,7 @@ import { IoLogoPython } from "react-icons/io";
 import { motion } from "framer-motion";
 import { Python } from "../assets/projects/Python";
 import { SiMysql } from "react-icons/si";
-import { Cplusplus } from "../assets/projects/cplusplus";
+import { Cplusplus } from "../assets/projects/Cplusplus";
 import { ReactQuery } from "../assets/projects/ReactQuery";
 import { ReactRouter } from "../assets/projects/ReactRouter";
 import { SiReactrouter } from "react-icons/si";
