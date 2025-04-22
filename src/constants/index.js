@@ -15,7 +15,7 @@ export const EXPERIENCES = [
     role: "Undergraduate Research Assistant",
     company: "Indian Institute of Technology, Hyderabad",
     Lab: "Systems Biology and Network Lab",
-    description: `Currently working on two separate projects under the supervision of Dr. Abhisek Subramaniam. One project involves researching various lung infections in humans, while the other focuses on analyzing the metabolic pathways of organisms. Both projects are ongoing and aim to provide valuable insights into infection mechanisms and metabolic processes.`,
+    description: `Currently working on two separate projects under the supervision of Dr. Abhisek Subramanian. One project involves researching various lung infections in humans, while the other focuses on analyzing the metabolic pathways of organisms. Both projects are ongoing and aim to provide valuable insights into infection mechanisms and metabolic processes.`,
     technologies: ["Web Development", "Database Development", "Visualisations"],
   },
   {
@@ -23,7 +23,7 @@ export const EXPERIENCES = [
     role: "Undergraduate Research Assistant",
     company: "Indian Institute of Technology, Hyderabad",
     Lab: "Systems Biology and Network Lab",
-    description: `Worked in the Systems Biology and Network Lab under the supervision of Dr. Abhisek Subramaniam, conducting in-depth research on horizontal gene transfer by analyzing approximately 200 computational tools. Investigated mechanisms of gene transfer, assessed tool accuracy and functionality, and provided insightful results that contribute to a deeper understanding of horizontal gene transfer in various organisms.`,
+    description: `Worked in the Systems Biology and Network Lab under the supervision of Dr. Abhisek Subramanian, conducting in-depth research on horizontal gene transfer by analyzing approximately 200 computational tools. Investigated mechanisms of gene transfer, assessed tool accuracy and functionality, and provided insightful results that contribute to a deeper understanding of horizontal gene transfer in various organisms.`,
     technologies: ["Python", "Linux", "Perl"],
   },
 ];
